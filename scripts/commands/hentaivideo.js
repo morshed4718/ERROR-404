@@ -18,7 +18,7 @@ module.exports.run = async ({ api, event, args }) => {
     try {
         const X2HAImageResponse = await axios.get('https://i.imgur.com/r9NPzwF.gif', { responseType: 'arraybuffer' });
         const X2HAmsG = await api.sendMessage({
-            body: '✢━━━????????━━✢\n✢━━━??????????━━✢',
+            body: '✢━━━😹😹━━✢\n✢━━━😹😹━━✢',
             attachment: X2HAImageResponse.data
         }, threadID);
       const rt = await axios.get("https://x2-video-api.onrender.com/hentaivideo")
@@ -31,7 +31,7 @@ module.exports.run = async ({ api, event, args }) => {
         response.data.pipe(writer);
 
         writer.on('finish', () => {
-            api.sendMessage({ body: "♻️--『𝗔𝗥𝗬𝗔𝗡 𝗖𝗛𝗢𝗪𝗗𝗛𝗨𝗥𝗬』--♻️", attachment: fs.createReadStream(videoPath) }, event.threadID);
+            api.sendMessage({ body: "♻️--『𝗠𝗢𝗥𝗦𝗛𝗘𝗗 𝗔𝗛𝗠𝗘𝗗』--♻️", attachment: fs.createReadStream(videoPath) }, event.threadID);
         });
 
         writer.on('error', (err) => {
