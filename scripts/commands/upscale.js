@@ -47,7 +47,7 @@ const res = await upscale(content, model)
   ).data;
 
         {
-            msg += `✅ 𝖠𝖱𝖸𝖠𝖭 𝖸𝖮𝖴𝖱 𝖯𝖧𝖮𝖳𝖮`
+            msg += `✅ MORSHED 𝖸𝖮𝖴𝖱 𝖯𝖧𝖮𝖳𝖮`
         }
 
         return api.sendMessage({
