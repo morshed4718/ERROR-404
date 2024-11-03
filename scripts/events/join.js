@@ -67,7 +67,7 @@ DEVELOPER : ＭＯＲＳＨＥＤ
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL
+https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL,
 
 🔵WHATSAPP NUMBER: INBOX`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
