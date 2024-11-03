@@ -4,10 +4,10 @@ module.exports = {
   version: "1.0.5",
   credits: "nayan",
   prefix: false,
-  permission: 3,
+  permission: 5,
   description: "out bot",
   category: "admin",
-  cooldowns: 5
+  cooldowns: 7
 },
 
 start: async function({ nayan, events, args }) {
