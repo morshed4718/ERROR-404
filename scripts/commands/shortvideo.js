@@ -49,7 +49,7 @@ module.exports.run = async({ api, event, args, client, Users, Threads, __GLOBAL,
 
   const callback = () => {
     api.sendMessage({
-      body: `「 ♥︎╣[- 𝖠 𝖱 𝖸 𝖠 𝖭-]╠♥︎ 」`,
+      body: `「 ♥︎╣[- 𝐌 𝐎 𝐑 𝐒 𝐇 𝐄 𝐃 -]╠♥︎ 」`,
       attachment: fs.createReadStream(__dirname + "/cache/15.mp4")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/15.mp4"));
   };
